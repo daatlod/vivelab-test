@@ -127,7 +127,7 @@ appUsers.buildGallery = function(id){
 		$('.info-user .email-user').text(appUsers.OldJson[idNumber-1].email);
 		$('.info-user .geo-user').text(appUsers.OldJson[idNumber-1].address.city);		
 
-		console.log(appUsers.galleryJson);
+
 		
 		$('.boxes-gallery .album').html('');
 
