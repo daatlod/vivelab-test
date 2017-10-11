@@ -1,0 +1,20 @@
+# Ignores
+\.DS_Store
+\.classpath
+\.project
+\.settings
+\.idea
+*.iml
+*.ipr
+*.iws
+\.metadata/
+Servers/
+target/
+nbproject/
+platforms/
+plugins/
+build/
+node_modules/
+app/lib/
+test_reports/
+npm-debug.log

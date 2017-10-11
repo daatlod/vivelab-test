@@ -34,12 +34,19 @@ header .search-box a{
     line-height: 50px;
     text-decoration: none;
 }
+
+#content,
+#content2{
+	display: none;
+}
+
 .home{
 	margin: 85px 0 0;
 }
 .home .user-home{
 	display: block;
 	height: 180px;
+	margin-bottom: 20px; 
 	overflow: hidden;
 	position: relative;
 	width: 100%;
@@ -184,6 +191,12 @@ header .search-box a{
 	font-weight: 300;
 	margin: 0 0 35px 0;
 }
+.user .post-user h4{
+	font-size: 24px;
+	line-height: 26px;
+	font-weight: 300;
+	margin: 0 0 20px 0;
+}
 .user .post-user .text{
 	font-size: 22px;
 	line-height: 24px;
@@ -312,6 +325,9 @@ header .search-box a{
 	background: #fff;
 	border-bottom:1px solid #cdcdcd; 
 }
+.gallery-user .album div{
+	margin-bottom: 10px; 
+}
 
 .gallery-user .trigger{	
 	margin: 0;
@@ -434,6 +450,11 @@ header .search-box a{
 	}
 	.user .post-user .date{
 		font-size: 24px;
+	}
+	.user .post-user h4{
+		font-size: 30px;
+		line-height: 32px;
+		margin: 0 0 50px 0;
 	}
 	.user .post-user .text{
 		font-size: 28px;
