@@ -107,7 +107,7 @@ appUsers.buildPost = function(id){
 			);    	
 		}
 		
-	}, 200);
+	}, 500);
 }
 
 /*detail page gallery*/
@@ -140,7 +140,7 @@ appUsers.buildGallery = function(id){
 			);    	
 		}
 		
-	}, 500);
+	}, 700);
 }
 
 
